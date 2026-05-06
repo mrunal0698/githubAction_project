@@ -1,0 +1,3 @@
+1.install Jenkins on my own laptop exposing port 8080 with the help of docker 
+ A) install all required software like git ,java, aws cli , docker etc..
+ B) now configure /write a declarative pipeline script that takes the code from GitHub with help of credentials stored in credentials section of Jenkins & in stage 2 it should build the code taken from GitHub & in stage 3 it should push the ECR image 
